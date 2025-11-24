@@ -141,7 +141,7 @@ export const BenefitsSection: React.FC = () => {
     <motion.section
       id="benefits"
       data-section-id="benefits"
-      className="relative bg-sky-50/90 pb-20 pt-12 md:pb-28 md:pt-16 "
+      className="relative bg-sky-50/90 pb-20 pt-12 md:pb-28 md:pt-16 overflow-hidden"
       initial="hidden"
       whileInView="visible"
       viewport={{ once: true, amount: 0.25 }}

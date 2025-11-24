@@ -128,7 +128,7 @@ export const StoryToursSection: React.FC = () => {
     <motion.section
       id="stories"
       data-section-id="stories"
-      className="relative bg-amber-50/60 pb-20 pt-12 md:pb-28 md:pt-16"
+      className="relative bg-amber-50/60 pb-20 pt-12 md:pb-28 md:pt-16 overflow-hidden"
       initial="hidden"
       whileInView="visible"
       viewport={{ once: true, amount: 0.25 }}

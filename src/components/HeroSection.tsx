@@ -27,7 +27,7 @@ export const HeroSection: React.FC = () => {
     <section
       data-section-id="hero"
       id="top"
-      className="hero-gradient relative overflow-hidden pt-24 pb-20 md:pb-28"
+      className="hero-gradient relative overflow-hidden pt-24 pb-20 md:pb-28 overflow-hidden"
     >
       {/* Мягкие фоновые пятна */}
       <div className="pointer-events-none absolute inset-0" aria-hidden={true}>

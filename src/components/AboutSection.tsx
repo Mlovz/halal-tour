@@ -40,7 +40,7 @@ export const AboutSection: React.FC = () => {
     <motion.section
       id="about"
       data-section-id="about"
-      className="relative bg-amber-50/80 pb-20 pt-12 md:pb-28 md:pt-16 "
+      className="relative bg-amber-50/80 pb-20 pt-12 md:pb-28 md:pt-16 overflow-hidden"
       initial="hidden"
       whileInView="visible"
       viewport={{ once: true, amount: 0.25 }}

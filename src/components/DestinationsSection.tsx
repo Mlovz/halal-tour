@@ -163,7 +163,7 @@ export const DestinationsSection: React.FC = () => {
     <section
       id="tours"
       data-section-id="tours"
-      className="relative bg-sky-50/80 pb-20 pt-10 md:pb-28 md:pt-16"
+      className="relative bg-sky-50/80 pb-20 pt-10 md:pb-28 md:pt-16 overflow-hidden"
     >
       {/* Фоновые пузыри */}
       <div aria-hidden="true" className="pointer-events-none absolute inset-0">

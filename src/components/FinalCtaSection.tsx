@@ -9,7 +9,7 @@ export const FinalCtaSection: React.FC = () => {
     <motion.section
       id="quiz"
       data-section-id="quiz"
-      className="relative bg-sky-50/95 pb-20 pt-12 md:pb-28 md:pt-16 "
+      className="relative bg-sky-50/95 pb-20 pt-12 md:pb-28 md:pt-16 overflow-hidden"
       initial={{ opacity: 0, y: 40 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, amount: 0.25 }}

@@ -76,7 +76,7 @@ export const HowItWorksSection: React.FC = () => {
     <motion.section
       id="how-it-works"
       data-section-id="how-it-works"
-      className="relative bg-amber-50/70 pb-20 pt-12 md:pb-28 md:pt-16"
+      className="relative bg-amber-50/70 pb-20 pt-12 md:pb-28 md:pt-16 overflow-hidden"
       initial="hidden"
       whileInView="visible"
       viewport={{ once: true, amount: 0.25 }}
