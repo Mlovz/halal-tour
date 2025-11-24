@@ -133,7 +133,6 @@ export const StoryToursSection: React.FC = () => {
       whileInView="visible"
       viewport={{ once: true, amount: 0.25 }}
     >
-      {/* Фоновые элементы */}
       <div aria-hidden={true} className="pointer-events-none absolute inset-0">
         <div className="absolute -top-10 left-[-40px] h-36 w-36 rounded-full bg-rose-200/50 blur-2xl" />
         <div className="absolute top-1/3 right-[-60px] h-44 w-44 rounded-full bg-sky-200/60 blur-2xl" />
