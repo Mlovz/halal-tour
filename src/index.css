@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+
+
+.hero-gradient {
+  background: linear-gradient(180deg, #e0f2ff 0%, #fdf3df 45%, #ffe5cf 100%);
+}
+
+/* Тень у иллюстративной карточки справа */
+.hero-card-shadow {
+  box-shadow: 0 32px 80px rgba(15, 23, 42, 0.35);
+}
+
+/* Небо внутри карточки */
+.hero-sky {
+  overflow: hidden;
+}
+
+/* Лёгкое свечение/объём планеты */
+.planet-blob {
+  box-shadow: 0 28px 80px rgba(56, 189, 248, 0.35);
+}
